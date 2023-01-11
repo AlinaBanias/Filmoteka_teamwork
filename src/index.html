@@ -15,6 +15,25 @@
     <link rel="stylesheet" href="./scss/index.scss" />
   </head>
   <body>
+
+    <form class="js-auth__form">
+      <input type="email" id="email" required="" class="js-auth__email-input">
+      <input type="password" id="password" required="" class="js-auth__password-input">
+      <button type="submit" class="js-auth__entrance-btn">
+        Войти
+      </button>
+      <button type="submit" class="js-auth__registration-btn">
+        Зарег
+      </button>
+    </form>
+    <button type="button" class="js-auth__add-to-watched-btn">
+      add to watched
+    </button>
+    <button type="button" class="js-auth__add-to-queue-btn">
+      ad to queue
+    </button>
+
+    
     <include src="./partials/home-header.html"></include>
     <main>
       <include src="./partials/slider-new-films.html"></include>
